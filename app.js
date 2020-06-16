@@ -549,10 +549,192 @@
 //     alert("Enter correct time again");
 // }
 
+// .............CHAPTER 14-16....................
+// Task#1
+// var array =[];
+
+//  Task#2
+// var array = new Array();
+
+// Task#3
+// var arr = ["Masfa", "Madiha","Mahnoor"];
+// console.log(arr);
+
+// Task#4
+// var arr = [1,2,3,4,5];
+// console.log(arr[3]);
+
+// Task#5
+// var boolarray = [true,false];
+// console.log(boolarray[1]);
+
+// Task#6
+// var arr =[];
+// arr = [2,"Masfa",true];
+// console.log(arr[0]);
+// console.log(arr);
+
+// Task#7
+// var arr = ["SSC", "HSC", "BCS", "BS","BCOM","MS","M.PHIL", "PhD"];
+// var n = 1;
+// for(var i=0; i<= 7 ;i++){
+
+//     document.write( n+ ") " + arr[i] + "<br>");
+//     ++n;
+// }
+
+// Task#8
+// var names =["Masfa","Madiha","Ibrahim"];
+// var score =[ 180 ,120, 185];
+// var t = 500 ;
+// var a = score[0]*100/200 ;
+// var b = score[1]*100/200 ;
+// var c = score[2]*100/200 ;
+
+// document.write("Score of " +names[0]+" is " + score[0] + ". Percentage: " +a+ "%" );
+// document.write("<br>Score of " +names[1]+" is " + score[1] + ". Percentage: " +b+ "%" );
+// document.write("<br>Score of " +names[2]+" is " + score[2] + ". Percentage: " +c+ "%" );
+
+// Task#9
+//Task 9:
+// var color =["Red","Yellow","Pink"];  
+// document.write("Color names: "+color+"<br>");
+// var color1 = prompt("Enter your color");
+// color.unshift(color1);
+// document.write("Add color in beginging through user input: "+color +"<br>");
+// var color2 = prompt("Enter your color");
+// color.push(color2);
+// document.write("Add color in end through user input: "+color+"<br>");
+// color.unshift("Blue","Black");
+// document.write("Add two colors: " +color +"<br>");
+// color.shift();
+// document.write("Delete first color: " +color+"<br>");
+// color.pop();
+// document.write("Delete last color: "+color+"<br>");
 
 
+//Task 10:
+// var score =[320,230,480,120];
+// document.write("Score of Students :" + score +"<br>");
+// score.sort();
+// document.write("Ordered Scores of Students :" +score);
+
+//Task 11:
+// var cities = ["Karachi","Lahore","Islamabad","Quetta"];
+// document.write("Cities list: " +"<br>"+cities+"<br>");
+// var select_cities = cities.slice(2,5);
+// document.write("Selected cities list :"+"<br>"+select_cities);
+
+//Task 12:
+// var arr = [" This ", "is ", "my ", "cat "] ;
+// document.write("Arrays :"+"<br>"+arr+"<br>");
+// var arr1 = arr.join('');
+// document.write("String :"+"<br>"+arr1);
+
+//Task 13:
+// var device = ["keyboard","mouse","printer","monitor"];
+// document.write("Devices :"+"<br>"+device+"<br>");
+// device.shift();
+// for(var i=0; i<device.length;i++)
+// {
+//     document.write("Out :"+"<br>"+device[i]+"<br>");
+// }
+
+// ............................CHAPTER 17-20............................
+//Task#1
+// var arr =[[,],[,]];
+      
+// Task#2
+// var  mul = [[ 0,1,2,3],[ 1,0,1,2],[  2,1,0,1]
+// ];
+// for (i=0;i<mul.length;i++){
+//     document.write("<br>"+mul[i]+"<br>")
+// }
+//Task#3
+//  var a;
+//  for (a=1; a<=10; a++)
+//  {
+//      document.write(a + "<br>");
+//  }
+
+//Task#4
+// var mul_table =+prompt("Enter a number to show its multiplication table");
+// document.write("Multiplication table of "+mul_table+"<br>");
+// var mul_length = +prompt("Enter length multiplication table");
+// document.write("Length "+mul_length+"<br>");
+// for(var i=1; i<=mul_length; i++)
+// {
+//     document.write(mul_table + "x" + i + "=" + mul_table*i + "<br>");
+// }
+
+//Task#6
+// document.write("<h1>Counting :</h1>"+"<br>");
+// var a;
+//  for (a=1; a<=15; a++)
+//  {
+//      document.write(a+",");
+//  }
+
+//  document.write("<h1>Reverse Counting :</h1>"+"<br>");
+// var b;
+// for (b=10; b>=1; b--)
+// {
+//     document.write(b+",");
+// }
+// document.write("<h1>Even :</h1>"+"<br>");
+// var c;
+// for (c=0; c<=20; c++)
+// if(c %2 ==0)
+//  {
+//      document.write(c+",");
+//  }
+//  document.write("<h1>Odd :</h1>"+"<br>");
+// var d;
+// for (d=0; d<=20; d++)
+// if(d %2 )
+//  {
+//      document.write(d+",");
+//  }
+//  document.write("<h1>Series :</h1>"+"<br>");
+// var e;
+// for (e=1; e<=20; e++)
+// if(e %2==0 )
+//  {
+//      document.write(e+"k,");
+//  }
+
+//Task#8
+// var arr = [24,53,78,91,12];
+// document.write("Array items: "+arr+"<br>");
+// var largest =arr[0];
+// for (var i = 0; i < arr.length; i++)
+// {
+//     if(largest < arr[i] ){
+//         largest = arr[i];
+//     }
+// }
+// document.write("The largest number is "+ largest);
 
 
+//Task#9
+// var arr1 = [24,53,78,91,12];
+// document.write("Array items: "+arr1+"<br>");
+// var smallest =arr1[0];
+// for (var i = 0; i < arr1.length; i++)
+// {
+//     if(smallest > arr1[i] ){
+//         smallest = arr1[i];
+//     }
+// }
+// document.write("The smallest number is "+ smallest);
+
+//Task#10
+// var mul;
+// for (mul=1; mul<=100; mul++)
+// if(mul %5==0)
+//  {
+//      document.write(mul+",");
+//  }
 
 
 
